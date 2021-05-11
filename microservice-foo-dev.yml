@@ -1,1 +1,15 @@
 # 测试文件
+server:
+  port: 8005
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        # 该仓库存储了配置文件
+        git:
+          uri: https://github.com/emhui/spring-cloud-config-repo.git
+          username: emhui@foxmail.com
+          password: gEmhui2515.+h
+          default-label: main
