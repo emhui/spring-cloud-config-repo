@@ -1,6 +1,6 @@
 # 测试文件
 server:
-  port: 8005
+  port: 8007
 spring:
   application:
     name: microservice-config-server
